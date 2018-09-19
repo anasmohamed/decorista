@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252194795531",
+    "firebase_url": "https://decorista-ae153.firebaseio.com",
+    "project_id": "decorista-ae153",
+    "storage_bucket": "decorista-ae153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252194795531:android:ba026634655bd422",
+        "android_client_info": {
+          "package_name": "com.decorista.anas.decorista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252194795531-gf1sjjgvkcl7ot6d0a3m6j97hojmj0fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPisGcS9GU5HphKWjSeQsBZoq6KDyNKQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

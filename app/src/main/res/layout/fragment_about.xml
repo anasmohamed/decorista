@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+      >
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="313dp"
+            android:contentDescription="@string/company_logo"
+            android:layout_height="143dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+             />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/connection_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView_logo" />
+    </RelativeLayout>
+</ScrollView>
